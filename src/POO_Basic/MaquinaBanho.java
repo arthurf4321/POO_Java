@@ -1,4 +1,4 @@
-import java.util.Scanner;
+package POO_Basic;
 
 public class MaquinaBanho {
 
