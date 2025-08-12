@@ -1,4 +1,4 @@
-package Heranca_Polimorfismo;
+package Heranca_Polimorfismo.Exercicio_1;
 
 public class MeiaEntrada extends Ingresso {
     public MeiaEntrada(double valor, String nomeFilme, boolean dublado) {

@@ -1,27 +1,40 @@
-import Heranca_Polimorfismo.MeiaEntrada;
-
-import java.util.Scanner;
+package Heranca_Polimorfismo.Exercicio_2;
 
 public class Main {
-
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        // Criando os objetos
+        Gerente gerente = new Gerente("Ana", "ana@email.com", 1234);
+        Vendedor vendedor = new Vendedor("Carlos", "carlos@email.com", 5678);
+        Atendente atendente = new Atendente("Maria", "maria@email.com", 9012);
 
-        System.out.print("Valor base do ingresso: ");
-        double valor = sc.nextDouble();
+        // Testando Gerente
+        gerente.login();
+        gerente.gerarRelatorio();
+        gerente.consultarVendar();
+        gerente.alterarDados("Ana Silva", "ana.silva@email.com");
+        gerente.alterarSenha(4321);
+        gerente.logoff();
 
-        sc.nextLine(); // limpar o buffer
-        System.out.print("Nome do filme: ");
-        String nomeFilme = sc.nextLine();
+        System.out.println();
 
-        System.out.print("É dublado? (true/false): ");
-        boolean dublado = sc.nextBoolean();
+        // Testando Vendedor
+        vendedor.login();
+        vendedor.realizarVendas();
+        vendedor.realizarVendas();
+        vendedor.consultarVendar();
+        vendedor.alterarDados("Carlos Lima", "carlos.lima@email.com");
+        vendedor.alterarSenha(8765);
+        vendedor.logoff();
 
-        System.out.print("Quantas pessoas? ");
-        int Pessoas = sc.nextInt();
+        System.out.println();
 
-        MeiaEntrada ingresso = new MeiaEntrada(valor, nomeFilme, dublado);
-
-        System.out.println("Valor real do ingresso: R$ " + ingresso.getValorReal());
+        // Testando Atendente
+        atendente.login();
+        atendente.receberPagamento(150.50);
+        atendente.receberPagamento(299.99);
+        atendente.fecharCaixa();
+        atendente.alterarDados("Maria Souza", "maria.souza@email.com");
+        atendente.alterarSenha(2109);
+        atendente.logoff();
     }
 }

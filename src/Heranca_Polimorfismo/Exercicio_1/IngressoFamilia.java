@@ -1,4 +1,4 @@
-package Heranca_Polimorfismo;
+package Heranca_Polimorfismo.Exercicio_1;
 
 public class IngressoFamilia extends Ingresso {
     private int pessoas;
