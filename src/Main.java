@@ -1,6 +1,8 @@
 package POO_Basic;
 
- class Testes {
+import javax.swing.*;
+
+class Testes {
     public static void main(String[] args) {
 
     /*
@@ -55,8 +57,16 @@ package POO_Basic;
         computador1.statsComputador = false;
         computador1.ligar();
         computador1.desligar();
-     */
 
+
+        Filme filme1 = new Filme();
+        filme1.titulo = "Planeta do macacos";
+        filme1.descricao = "Muitas sociedades de macacos cresceram desde quando César levou seu povo a um oásis, enquanto os humanos foram reduzidos a sobreviver e se esconder nas sombras. Um líder macaco começa a escravizar outros grupos para encontrar tecnologia humana, enquanto um jovem macaco, que viu seu clã ser capturado, embarca em uma viagem para encontrar a liberdade, sendo uma jovem humana a chave para todos.";
+        filme1.duracao = 2.30;
+        filme1.autor = "Pierre Boille";
+        filme1.diretor = "Franklin J. Schaffner, Don Taylor, Ted Post, J. Lee Thompson";
+        filme1.exibirInfos();
+     */
         
     }
 }
