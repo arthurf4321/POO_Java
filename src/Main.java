@@ -29,6 +29,14 @@ package POO_Basic;
         livro1.titulo = "O mundo por tras da sociedade";
         livro1.ano = 1930;
         livro1.exibirInfos();
+
+        Celular celular1 = new Celular();
+        celular1.marca = "Android";
+        celular1.modelo = "A15";
+        celular1.statsCelular = false;
+
+        celular1.ligar();
+        celular1.desligar();
      */
         
     }
