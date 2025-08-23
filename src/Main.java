@@ -14,7 +14,16 @@ package POO_Basic;
         carro1.ano = 2007;
         carro1.marca = "Honda";
         carro1.exibirInfos();
-     */
 
+        Cachorro cachorro1 = new Cachorro();
+        cachorro1.raca = "PitBul";
+        cachorro1.nome = "Trevoso";
+        cachorro1.idade = 12;
+
+        cachorro1.latir();
+        cachorro1.exameIdade();
+        cachorro1.exameRaca();
+     */
+        
     }
 }
