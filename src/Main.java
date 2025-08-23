@@ -1,18 +1,20 @@
-package Heranca_Polimorfismo.Exercicio_3;
+package POO_Basic;
 
  class TesteRelogios {
     public static void main(String[] args) {
-        RelogioBrasileiro relBras = new RelogioBrasileiro(15, 30, 45);
-        RelogioAmericano relAmer = new RelogioAmericano(0, 0, 0);
 
-        System.out.println("Antes da atualização:");
-        System.out.println("Brasileiro: " + relBras.formatoRelogio());
-        System.out.println("Americano: " + relAmer.formatoRelogio());
+    /*
+        Pessoa pessoa1 = new Pessoa();
+        pessoa1.nome = "jopa";
+        pessoa1.idade = 12;
+        pessoa1.falar();
 
-        relAmer.atualizarHorarioDeOutroRelogio(relBras);
+        CarroInfos carro1 = new CarroInfos();
+        carro1.modelo = "Civic";
+        carro1.ano = 2007;
+        carro1.marca = "Honda";
+        carro1.exibirInfos();
+     */
 
-        System.out.println("\nDepois da atualização:");
-        System.out.println("Brasileiro: " + relBras.formatoRelogio());
-        System.out.println("Americano: " + relAmer.formatoRelogio());
     }
 }
