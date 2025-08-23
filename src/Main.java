@@ -1,6 +1,6 @@
 package POO_Basic;
 
- class TesteRelogios {
+ class Testes {
     public static void main(String[] args) {
 
     /*
@@ -23,6 +23,12 @@ package POO_Basic;
         cachorro1.latir();
         cachorro1.exameIdade();
         cachorro1.exameRaca();
+
+        Livro livro1 = new Livro();
+        livro1.autor = "Arthur";
+        livro1.titulo = "O mundo por tras da sociedade";
+        livro1.ano = 1930;
+        livro1.exibirInfos();
      */
         
     }
