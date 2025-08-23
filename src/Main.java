@@ -48,6 +48,6 @@ package POO_Basic;
         caneta1.ponta = 0.5;
         caneta1.escrever();
      */
-        
+
     }
 }
