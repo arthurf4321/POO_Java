@@ -66,6 +66,13 @@ class Testes {
         filme1.autor = "Pierre Boille";
         filme1.diretor = "Franklin J. Schaffner, Don Taylor, Ted Post, J. Lee Thompson";
         filme1.exibirInfos();
+
+
+        ContaBancaria2 conta1 = new ContaBancaria2();
+        conta1.valor = 100;
+        conta1.depositar();
+        conta1.sacar();
+        conta1.exibirSaldo();
      */
         
     }
