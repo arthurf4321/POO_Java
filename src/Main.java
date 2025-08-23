@@ -47,7 +47,16 @@ package POO_Basic;
         caneta1.cor = "Azul";
         caneta1.ponta = 0.5;
         caneta1.escrever();
+
+
+        Computador computador1 = new Computador();
+        computador1.processador = "Ryzen 5600GT";
+        computador1.ram = 16.0;
+        computador1.statsComputador = false;
+        computador1.ligar();
+        computador1.desligar();
      */
 
+        
     }
 }
