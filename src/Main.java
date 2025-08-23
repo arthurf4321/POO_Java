@@ -1,5 +1,7 @@
 package POO_Basic;
 
+import Encapsulamento_inicialização.Produto;
+
 import javax.swing.*;
 
 class Testes {
@@ -74,6 +76,20 @@ class Testes {
         conta1.sacar();
         conta1.exibirSaldo();
      */
+
+
+
+
+
+        //Encapsulamento e Inicialização
+
+        /*
+        Produto p1 = new Produto("Acai", 12, 5);
+        Produto p2 = new Produto("Ryzen 5600GT", 900, 4);
+        p1.calcularValorTotal();
+        p2.calcularValorTotal();
+        */
+
         
     }
 }
