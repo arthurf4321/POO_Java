@@ -1,5 +1,6 @@
 package POO_Basic;
 
+import Encapsulamento_inicialização.Aluno;
 import Encapsulamento_inicialização.Produto;
 
 import javax.swing.*;
@@ -88,7 +89,14 @@ class Testes {
         Produto p2 = new Produto("Ryzen 5600GT", 900, 4);
         p1.calcularValorTotal();
         p2.calcularValorTotal();
+
+
+
         */
+        Aluno aluno1 = new Aluno("Arthur", 3 , 10);
+        Aluno aluno2 = new Aluno("Arthur", 0 , 5);
+        aluno1.calcularMedia();
+        aluno2.calcularMedia();
 
         
     }
