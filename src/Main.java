@@ -1,6 +1,7 @@
 package POO_Basic;
 
 import Encapsulamento_inicialização.Aluno;
+import Encapsulamento_inicialização.Carro;
 import Encapsulamento_inicialização.Funcionario;
 import Encapsulamento_inicialização.Produto;
 import Encapsulamento_inicialização.Agenda;
@@ -119,8 +120,15 @@ class Testes {
             Agenda contato = entry.getValue();
             System.out.println("Nome: " + contato.getNome() + " | Número: " + contato.getNumero());
         }
+
+        
+        Carro carro1 = new Carro("Civic", 2020);
+        System.out.println("Carro -> modelo: " + carro1.getModelo() + " | ano: " + carro1.getAno());
+
+        Carro carro2 = new Carro();
+        carro2.setModelo("Corrola");
+        carro2.setAno(2010);
+        System.out.println("Carro -> modelo: " + carro2.getModelo() + " | ano: " + carro2.getAno());
         */
-
-
     }
 }
