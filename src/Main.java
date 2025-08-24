@@ -2,6 +2,7 @@ package POO_Basic;
 
 import Encapsulamento_inicialização.*;
 import Encapsulamento_inicialização.Carro;
+import Encapsulamento_inicialização.Pessoa;
 
 import java.util.Map;
 import java.util.HashMap;
@@ -135,6 +136,13 @@ class Testes {
         retangulo1.calcularPerimetro();
         retangulo2.calcularArea();
         retangulo2.calcularPerimetro();
+
+
+        Pessoa pessoa1 = new Pessoa("08433011140", 19);
+        Pessoa pessoa2 = new Pessoa("08433011140", 11);
+        pessoa1.calcularMaioridade();
+        pessoa2.calcularMaioridade();
         */
+
     }
 }
