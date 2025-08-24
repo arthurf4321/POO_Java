@@ -3,6 +3,9 @@ package POO_Basic;
 import Encapsulamento_inicialização.Aluno;
 import Encapsulamento_inicialização.Funcionario;
 import Encapsulamento_inicialização.Produto;
+import Encapsulamento_inicialização.Agenda;
+import java.util.Map;
+import java.util.HashMap;
 
 import javax.swing.*;
 
@@ -104,7 +107,20 @@ class Testes {
         fun1.aumentarSalario();
         fun2.aumentarSalario();
         fun3.aumentarSalario();
+
+
+        Map<String, Agenda> contatos = new HashMap<>();
+
+        contatos.put("Arthur", new Agenda("Arthur", "61 98888-7777"));
+        contatos.put("Maria", new Agenda("Maria", "61 99999-6666"));
+        contatos.put("João", new Agenda("João", "61 97777-5555"));
+
+        for (Map.Entry<String, Agenda> entry : contatos.entrySet()) {
+            Agenda contato = entry.getValue();
+            System.out.println("Nome: " + contato.getNome() + " | Número: " + contato.getNumero());
+        }
         */
+
 
     }
 }
