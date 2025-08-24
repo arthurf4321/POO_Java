@@ -1,10 +1,8 @@
 package POO_Basic;
 
-import Encapsulamento_inicialização.Aluno;
+import Encapsulamento_inicialização.*;
 import Encapsulamento_inicialização.Carro;
-import Encapsulamento_inicialização.Funcionario;
-import Encapsulamento_inicialização.Produto;
-import Encapsulamento_inicialização.Agenda;
+
 import java.util.Map;
 import java.util.HashMap;
 
@@ -121,7 +119,7 @@ class Testes {
             System.out.println("Nome: " + contato.getNome() + " | Número: " + contato.getNumero());
         }
 
-        
+
         Carro carro1 = new Carro("Civic", 2020);
         System.out.println("Carro -> modelo: " + carro1.getModelo() + " | ano: " + carro1.getAno());
 
@@ -129,6 +127,14 @@ class Testes {
         carro2.setModelo("Corrola");
         carro2.setAno(2010);
         System.out.println("Carro -> modelo: " + carro2.getModelo() + " | ano: " + carro2.getAno());
+
+
+        Retangulo retangulo1 = new Retangulo(12, 10);
+        Retangulo retangulo2 = new Retangulo(20, 25);
+        retangulo1.calcularArea();
+        retangulo1.calcularPerimetro();
+        retangulo2.calcularArea();
+        retangulo2.calcularPerimetro();
         */
     }
 }
