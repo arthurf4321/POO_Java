@@ -142,7 +142,12 @@ class Testes {
         Pessoa pessoa2 = new Pessoa("08433011140", 11);
         pessoa1.calcularMaioridade();
         pessoa2.calcularMaioridade();
-        */
 
+
+        Telefone telefone1 = new Telefone(99999999, 888888888, "Vivo");
+        Telefone telefone2 = new Telefone(99999999, 0, "TIM");
+        telefone1.ligar();
+        telefone2.ligar();
+        */
     }
 }
