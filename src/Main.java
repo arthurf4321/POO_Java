@@ -1,6 +1,7 @@
 package POO_Basic;
 
 import Encapsulamento_inicialização.Aluno;
+import Encapsulamento_inicialização.Funcionario;
 import Encapsulamento_inicialização.Produto;
 
 import javax.swing.*;
@@ -91,13 +92,18 @@ class Testes {
         p2.calcularValorTotal();
 
 
-
-        */
         Aluno aluno1 = new Aluno("Arthur", 3 , 10);
         Aluno aluno2 = new Aluno("Arthur", 0 , 5);
         aluno1.calcularMedia();
         aluno2.calcularMedia();
 
-        
+
+        Funcionario fun1 = new Funcionario("Leticia", "caixa", 1400);
+        Funcionario fun2 = new Funcionario("Arthur", "auxiliar-administrativa", 3100);
+        Funcionario fun3 = new Funcionario("Laura", "gerente", 5560);
+        fun1.aumentarSalario();
+        fun2.aumentarSalario();
+        fun3.aumentarSalario();
+        */
     }
 }
