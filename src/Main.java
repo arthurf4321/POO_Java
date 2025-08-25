@@ -1,5 +1,6 @@
 package POO_Basic;
 
+import Encapsulamento_E_Comportamento.Elevador;
 import Encapsulamento_inicialização.*;
 import Encapsulamento_inicialização.Carro;
 import Encapsulamento_inicialização.Pessoa;
@@ -12,6 +13,7 @@ import javax.swing.*;
 class Testes {
     public static void main(String[] args) {
 
+    //POO Basic
     /*
         Pessoa pessoa1 = new Pessoa();
         pessoa1.nome = "jopa";
@@ -87,7 +89,6 @@ class Testes {
 
 
         //Encapsulamento e Inicialização
-
         /*
         Produto p1 = new Produto("Acai", 12, 5);
         Produto p2 = new Produto("Ryzen 5600GT", 900, 4);
@@ -156,6 +157,17 @@ class Testes {
         musica1.desligar();
         musica2.tocar();
         musica2.desligar();
+        */
+
+
+
+        //Encapsulamento e Comportamento
+       /*
+        Elevador usuario1 = new Elevador(20, 6);
+        usuario1.entrar();
+        usuario1.subir();
+        usuario1.descer();
+        usuario1.sair();
         */
     }
 }
