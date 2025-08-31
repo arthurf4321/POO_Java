@@ -1,9 +1,7 @@
 package POO_Basic;
 
-import Encapsulamento_E_Comportamento.Elevador;
+import Encapsulamento_E_Comportamento.*;
 import Encapsulamento_inicialização.*;
-import Encapsulamento_inicialização.Carro;
-import Encapsulamento_inicialização.Pessoa;
 
 import java.util.Map;
 import java.util.HashMap;
@@ -168,6 +166,18 @@ class Testes {
         usuario1.subir();
         usuario1.descer();
         usuario1.sair();
+
+
+        Banco conta1 = new Banco("Arthur", 1000.0);
+        Banco conta2 = new Banco("Maria", 500.0);
+        System.out.println(conta1.getNome() + " saldo inicial: " + conta1.getValor());
+        System.out.println(conta2.getNome() + " saldo inicial: " + conta2.getValor());
+
+        conta1.Transferir(conta2, 300);
+        System.out.println(conta1.getNome() + " saldo final: " + conta1.getValor());
+        System.out.println(conta2.getNome() + " saldo final: " + conta2.getValor());
         */
+
+
     }
 }
