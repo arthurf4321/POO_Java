@@ -1,0 +1,14 @@
+## 🔹 Nível 2 – Construtores, Getters e Setters
+
+👉 Foco: **encapsulamento e inicialização**.
+
+11. Classe `Produto`: nome, preço, quantidade, calcularValorTotal.   [X]
+12. Classe `Aluno`: nome, nota1, nota2, calcularMedia. [X]
+13. Classe `Funcionario`: nome, cargo, salário. Métodos `aumentarSalario(%)`.    [X]
+14. Classe `Livro`: título, autor, páginas. Construtor + métodos get/set.    [X]
+15. Classe `Agenda`: contato (nome, telefone). Criar lista de contatos.   [X]
+16. Classe `Carro`: adicionar construtor com parâmetros e sem parâmetros.[X]
+17. Classe `Retangulo`: largura, altura, calcularÁrea/Perímetro.    [X]
+18. Classe `Pessoa`: adicionar CPF e validar se é maior de idade.  [X]
+19. Classe `Telefone`: número, operadora, método ligar para outro número.    [X]
+20. Classe `Musica`: nome, artista, duração, método tocar/parar. [X]

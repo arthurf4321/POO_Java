@@ -1,0 +1,14 @@
+## 🔹 Nível 3 – Encapsulamento e Comportamento
+
+👉 Foco: **regras de negócio dentro da classe**.
+
+21. Classe `Elevador`: andarAtual, totalAndares, capacidade, métodos entrar/sair/subir/descer.   [X]
+22. Classe `Banco`: criar várias contas, transferir dinheiro entre elas.    [X]
+23. Classe `Mercado`: produtos em estoque, vender produto, atualizar estoque.    [X]
+24. Classe `LojaVirtual`: lista de clientes, registrar compras.    []
+25. Classe `Termometro`: temperatura atual, métodos aumentar/diminuir, converter Celsius ↔ Fahrenheit.    []
+26. Classe `ControleRemoto`: aumentar/diminuir volume, trocar canal.    []
+27. Classe `Semaforo`: estado (vermelho, amarelo, verde), método próximoEstado().    []
+28. Classe `Lampada`: estado (acesa/apagada), método alternarEstado().    []
+29. Classe `Estoque`: produtos, adicionar/remover itens, verificar quantidade.    []
+30. Classe `Corrida`: participantes, registrar tempo, verificar vencedor.    []

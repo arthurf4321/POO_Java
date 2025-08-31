@@ -1,0 +1,14 @@
+## 🔹 Nível 1 – Fundamentos de Classes e Objetos
+
+👉 Foco: **atributos, métodos, instanciar objetos**.
+
+1. Classe `Pessoa`: nome e idade, método apresentar.[X]
+2. Classe `Carro`: marca, modelo, ano, método exibir info. [X]
+3. Classe `Cachorro`: nome, raça, idade, método latir.  [X]
+4. Classe `Livro`: título, autor, ano, método exibir dados.[X]
+5. Classe `Celular`: marca, modelo, método ligar/desligar.[X]
+6. Classe `Caneta`: cor, ponta, método escrever.    [X]
+7. Classe `Bola`: cor, material, circunferência, método quicar.[X]
+8. Classe `Computador`: processador, RAM, método ligar.    [X]
+9. Classe `Filme`: título, duração, método exibir detalhes.    [X]
+10. Classe `ContaBancaria`: saldo, depositar/sacar/exibirSaldo. [X]
