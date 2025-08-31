@@ -1,12 +1,4 @@
-package POO_Basic;
-
-import Encapsulamento_E_Comportamento.*;
-import Encapsulamento_inicialização.*;
-
-import java.util.Map;
-import java.util.HashMap;
-
-import javax.swing.*;
+package POO.POO_Basic;
 
 class Testes {
     public static void main(String[] args) {
@@ -176,6 +168,11 @@ class Testes {
         conta1.Transferir(conta2, 300);
         System.out.println(conta1.getNome() + " saldo final: " + conta1.getValor());
         System.out.println(conta2.getNome() + " saldo final: " + conta2.getValor());
+
+
+        Mercado produto1 = new Mercado("Melancia", "17/8/2019" , 3);
+        produto1.verder();
+        System.out.println(produto1.getEstoque() + " Estoque ");
         */
 
 
