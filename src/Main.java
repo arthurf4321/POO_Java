@@ -156,10 +156,11 @@ public class Main {
         Mercado produto1 = new Mercado("Melancia", "17/8/2019" , 3);
         produto1.verder();
         System.out.println(produto1.getEstoque() + " Estoque ");
-        */
 
-        // =====================================================
-        // LojaVirtual funcionando
+
+
+         // =====================================================
+        // LojaVirtual
         LojaVirtual loja = new LojaVirtual(); // Construtor sem parâmetro
 
         loja.adicionarCliente("Arthur");
@@ -170,5 +171,17 @@ public class Main {
         loja.registrarCompras();
 
         System.out.println("Total de vendas registradas: " + loja.getCompras());
+
+
+        Termometro pedro = new Termometro(35);
+        Termometro marcos = new Termometro(36);
+
+        pedro.aumentarTemp();
+        pedro.converterParaFahrenheit();
+        pedro.converterParaCelsius(96.8);
+        marcos.diminuirTemp();
+        marcos.converterParaFahrenheit();
+        marcos.converterParaCelsius(95);
+        */
     }
 }
