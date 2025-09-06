@@ -11,45 +11,50 @@ public class Main {
         // =====================================================
         // POO Basic (comentado)
         /*
+        // ----------- Pessoa -----------
         Pessoa pessoa1 = new Pessoa();
         pessoa1.nome = "jopa";
         pessoa1.idade = 12;
         pessoa1.falar();
 
+        // ----------- Carro -----------
         CarroInfos carro1 = new CarroInfos();
         carro1.modelo = "Civic";
         carro1.ano = 2007;
         carro1.marca = "Honda";
         carro1.exibirInfos();
 
+        // ----------- Cachorro -----------
         Cachorro cachorro1 = new Cachorro();
         cachorro1.raca = "PitBul";
         cachorro1.nome = "Trevoso";
         cachorro1.idade = 12;
-
         cachorro1.latir();
         cachorro1.exameIdade();
         cachorro1.exameRaca();
 
+        // ----------- Livro -----------
         Livro livro1 = new Livro();
         livro1.autor = "Arthur";
         livro1.titulo = "O mundo por tras da sociedade";
         livro1.ano = 1930;
         livro1.exibirInfos();
 
+        // ----------- Celular -----------
         Celular celular1 = new Celular();
         celular1.marca = "Android";
         celular1.modelo = "A15";
         celular1.statsCelular = false;
-
         celular1.ligar();
         celular1.desligar();
 
+        // ----------- Caneta -----------
         Canetta caneta1 = new Canetta();
         caneta1.cor = "Azul";
         caneta1.ponta = 0.5;
         caneta1.escrever();
 
+        // ----------- Computador -----------
         Computador computador1 = new Computador();
         computador1.processador = "Ryzen 5600GT";
         computador1.ram = 16.0;
@@ -57,14 +62,16 @@ public class Main {
         computador1.ligar();
         computador1.desligar();
 
+        // ----------- Filme -----------
         Filme filme1 = new Filme();
         filme1.titulo = "Planeta do macacos";
-        filme1.descricao = "Muitas sociedades de macacos cresceram desde quando César levou seu povo a um oásis, enquanto os humanos foram reduzidos a sobreviver e se esconder nas sombras...";
+        filme1.descricao = "Muitas sociedades de macacos cresceram...";
         filme1.duracao = 2.30;
         filme1.autor = "Pierre Boille";
         filme1.diretor = "Franklin J. Schaffner, Don Taylor, Ted Post, J. Lee Thompson";
         filme1.exibirInfos();
 
+        // ----------- Conta Bancária -----------
         ContaBancaria2 conta1 = new ContaBancaria2();
         conta1.valor = 100;
         conta1.depositar();
@@ -75,16 +82,19 @@ public class Main {
         // =====================================================
         // Encapsulamento e Inicialização (comentado)
         /*
+        // ----------- Produto -----------
         Produto p1 = new Produto("Acai", 12, 5);
         Produto p2 = new Produto("Ryzen 5600GT", 900, 4);
         p1.calcularValorTotal();
         p2.calcularValorTotal();
 
-        Aluno aluno1 = new Aluno("Arthur", 3 , 10);
-        Aluno aluno2 = new Aluno("Arthur", 0 , 5);
+        // ----------- Aluno -----------
+        Aluno aluno1 = new Aluno("Arthur", 3, 10);
+        Aluno aluno2 = new Aluno("Arthur", 0, 5);
         aluno1.calcularMedia();
         aluno2.calcularMedia();
 
+        // ----------- Funcionário -----------
         Funcionario fun1 = new Funcionario("Leticia", "caixa", 1400);
         Funcionario fun2 = new Funcionario("Arthur", "auxiliar-administrativa", 3100);
         Funcionario fun3 = new Funcionario("Laura", "gerente", 5560);
@@ -92,6 +102,7 @@ public class Main {
         fun2.aumentarSalario();
         fun3.aumentarSalario();
 
+        // ----------- Agenda -----------
         Map<String, Agenda> contatos = new HashMap<>();
         contatos.put("Arthur", new Agenda("Arthur", "61 98888-7777"));
         contatos.put("Maria", new Agenda("Maria", "61 99999-6666"));
@@ -102,6 +113,7 @@ public class Main {
             System.out.println("Nome: " + contato.getNome() + " | Número: " + contato.getNumero());
         }
 
+        // ----------- Carro -----------
         Carro carro1 = new Carro("Civic", 2020);
         System.out.println("Carro -> modelo: " + carro1.getModelo() + " | ano: " + carro1.getAno());
 
@@ -110,6 +122,7 @@ public class Main {
         carro2.setAno(2010);
         System.out.println("Carro -> modelo: " + carro2.getModelo() + " | ano: " + carro2.getAno());
 
+        // ----------- Retângulo -----------
         Retangulo retangulo1 = new Retangulo(12, 10);
         Retangulo retangulo2 = new Retangulo(20, 25);
         retangulo1.calcularArea();
@@ -117,18 +130,21 @@ public class Main {
         retangulo2.calcularArea();
         retangulo2.calcularPerimetro();
 
+        // ----------- Pessoa -----------
         Pessoa pessoa1 = new Pessoa("08433011140", 19);
         Pessoa pessoa2 = new Pessoa("08433011140", 11);
         pessoa1.calcularMaioridade();
         pessoa2.calcularMaioridade();
 
+        // ----------- Telefone -----------
         Telefone telefone1 = new Telefone(99999999, 888888888, "Vivo");
         Telefone telefone2 = new Telefone(99999999, 0, "TIM");
         telefone1.ligar();
         telefone2.ligar();
 
-        Musica musica1 = new Musica("arthur", " rafaaekl" , 2, true);
-        Musica musica2 = new Musica("Julia" , "Paulo", 3 , false);
+        // ----------- Música -----------
+        Musica musica1 = new Musica("arthur", " rafaaekl", 2, true);
+        Musica musica2 = new Musica("Julia", "Paulo", 3, false);
         musica1.tocar();
         musica1.desligar();
         musica2.tocar();
@@ -138,12 +154,14 @@ public class Main {
         // =====================================================
         // Encapsulamento e Comportamento (comentado parcialmente)
         /*
+        // ----------- Elevador -----------
         Elevador usuario1 = new Elevador(20, 6);
         usuario1.entrar();
         usuario1.subir();
         usuario1.descer();
         usuario1.sair();
 
+        // ----------- Banco -----------
         Banco conta1 = new Banco("Arthur", 1000.0);
         Banco conta2 = new Banco("Maria", 500.0);
         System.out.println(conta1.getNome() + " saldo inicial: " + conta1.getValor());
@@ -153,32 +171,28 @@ public class Main {
         System.out.println(conta1.getNome() + " saldo final: " + conta1.getValor());
         System.out.println(conta2.getNome() + " saldo final: " + conta2.getValor());
 
-        Mercado produto1 = new Mercado("Melancia", "17/8/2019" , 3);
+        // ----------- Mercado -----------
+        Mercado produto1 = new Mercado("Melancia", "17/8/2019", 3);
         produto1.verder();
-        System.out.println(produto1.getEstoque() + " Estoque ");
+        System.out.println(produto1.getEstoque() + " Estoque");
 
-
-
-         // =====================================================
-        // LojaVirtual
+        // ----------- Loja Virtual -----------
         LojaVirtual loja = new LojaVirtual(); // Construtor sem parâmetro
-
         loja.adicionarCliente("Arthur");
         loja.adicionarCliente("Maria");
-
         loja.listarClientes();
         loja.registrarCompras();
         loja.registrarCompras();
-
         System.out.println("Total de vendas registradas: " + loja.getCompras());
 
-
+        // ----------- Termômetro -----------
         Termometro pedro = new Termometro(35);
         Termometro marcos = new Termometro(36);
 
         pedro.aumentarTemp();
         pedro.converterParaFahrenheit();
         pedro.converterParaCelsius(96.8);
+
         marcos.diminuirTemp();
         marcos.converterParaFahrenheit();
         marcos.converterParaCelsius(95);
