@@ -221,6 +221,12 @@ public class Main {
         // ----------- Lampada -----------
         Lampada lampada = new Lampada(false);
         lampada.changeStatus();
+
+        // ----------- Estoque -----------
+        Estoque estoque = new Estoque(2);
+        estoque.adicionarProduto();
+        estoque.retirarProduto();
+        estoque.verificarQuanridade();
         */
     }
 }

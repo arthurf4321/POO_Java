@@ -9,6 +9,6 @@
 25. Classe `Termometro`: temperatura atual, métodos aumentar/diminuir, converter Celsius ↔ Fahrenheit.    [X]
 26. Classe `ControleRemoto`: aumentar/diminuir volume, trocar canal.    [X]
 27. Classe `Semaforo`: estado (vermelho, amarelo, verde), método próximoEstado().    [X]
-28. Classe `Lampada`: estado (acesa/apagada), método alternarEstado().    []
-29. Classe `Estoque`: produtos, adicionar/remover itens, verificar quantidade.    []
+28. Classe `Lampada`: estado (acesa/apagada), método alternarEstado().    [X]
+29. Classe `Estoque`: produtos, adicionar/remover itens, verificar quantidade.    [X]
 30. Classe `Corrida`: participantes, registrar tempo, verificar vencedor.    []
