@@ -211,6 +211,12 @@ public class Main {
         controle2.diminuirVolume();
         controle2.descerCanal();
         controle2.subirCanal();
+
+        
+        Semaforo semaforo1 = new Semaforo("Amarelo");
+        semaforo1.newStats_Verde();
+        semaforo1.newStats_Amarelo();
+        semaforo1.newStats_Vermelho();
         */
     }
 }
