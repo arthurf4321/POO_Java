@@ -1,4 +1,4 @@
-package POO.POO_Basic.Encapsulamento_E_Comportamento;
+package POO.Encapsulamento_E_Comportamento;
 
 public class Elevador {
     private int andarAtual = 1;

@@ -1,4 +1,4 @@
-package POO.POO_Basic.Heranca_Polimorfismo.Exercicio_3;
+package POO.Heranca_Polimorfismo.Exercicio_3;
 
 public class RelogioAmericano extends Relogio {
 

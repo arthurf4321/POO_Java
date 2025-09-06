@@ -1,4 +1,4 @@
-package POO.POO_Basic.Heranca_Polimorfismo.Exercicio_1;
+package POO.Heranca_Polimorfismo.Exercicio_1;
 
 // Classe que representa ingresso para família, com desconto para grupos maiores
 public class IngressoFamilia extends Ingresso {

@@ -1,4 +1,4 @@
-package POO.POO_Basic.Heranca_Polimorfismo.Exercicio_2;
+package POO.Heranca_Polimorfismo.Exercicio_2;
 
 // Classe que representa o Gerente, usuário com privilégios administrativos
 public class Gerente extends Usuarios {

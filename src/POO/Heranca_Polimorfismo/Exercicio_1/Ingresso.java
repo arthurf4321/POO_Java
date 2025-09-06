@@ -1,4 +1,4 @@
-package POO.POO_Basic.Heranca_Polimorfismo.Exercicio_1;
+package POO.Heranca_Polimorfismo.Exercicio_1;
 
 // Classe abstrata que representa um ingresso de cinema
 public abstract class Ingresso {

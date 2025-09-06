@@ -1,4 +1,4 @@
-package POO.POO_Basic.Heranca_Polimorfismo.Exercicio_2;
+package POO.Heranca_Polimorfismo.Exercicio_2;
 
 // Classe base que representa um usuário genérico do sistema
 public class Usuarios {

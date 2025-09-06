@@ -1,4 +1,4 @@
-package POO.POO_Basic.Heranca_Polimorfismo.Exercicio_2;
+package POO.Heranca_Polimorfismo.Exercicio_2;
 
 // Classe que representa um Atendente, tipo de usuário que gerencia o caixa
 public class Atendente extends Usuarios {

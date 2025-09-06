@@ -1,4 +1,4 @@
-package POO.POO_Basic.Encapsulamento_inicialização;
+package POO.Encapsulamento_inicialização;
 
 public class Aluno {
     private String nome;
