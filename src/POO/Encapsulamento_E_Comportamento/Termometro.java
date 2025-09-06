@@ -9,9 +9,7 @@ public class Termometro {
     }
 
     //Get
-    public double getTempAtual() {
-        return tempAtual;
-    }
+    public double getTempAtual() { return tempAtual; }
 
     //methods
     public void aumentarTemp() {

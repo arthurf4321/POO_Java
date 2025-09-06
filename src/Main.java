@@ -196,6 +196,21 @@ public class Main {
         marcos.diminuirTemp();
         marcos.converterParaFahrenheit();
         marcos.converterParaCelsius(95);
+
+
+        // ----------- Termômetro -----------
+         ControleRemoto controle1 = new ControleRemoto(2, 4);
+        ControleRemoto controle2 = new ControleRemoto(1, 10);
+
+        controle1.aumentarVolume();
+        controle1.diminuirVolume();
+        controle1.descerCanal();
+        controle1.subirCanal();
+
+        controle2.aumentarVolume();
+        controle2.diminuirVolume();
+        controle2.descerCanal();
+        controle2.subirCanal();
         */
     }
 }
