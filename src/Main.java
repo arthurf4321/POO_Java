@@ -198,8 +198,8 @@ public class Main {
         marcos.converterParaCelsius(95);
 
 
-        // ----------- Termômetro -----------
-         ControleRemoto controle1 = new ControleRemoto(2, 4);
+        // ----------- ControleRemoto -----------
+        ControleRemoto controle1 = new ControleRemoto(2, 4);
         ControleRemoto controle2 = new ControleRemoto(1, 10);
 
         controle1.aumentarVolume();
@@ -212,11 +212,15 @@ public class Main {
         controle2.descerCanal();
         controle2.subirCanal();
 
-        
+        // ----------- Semaforo -----------
         Semaforo semaforo1 = new Semaforo("Amarelo");
         semaforo1.newStats_Verde();
         semaforo1.newStats_Amarelo();
         semaforo1.newStats_Vermelho();
+
+        // ----------- Lampada -----------
+        Lampada lampada = new Lampada(false);
+        lampada.changeStatus();
         */
     }
 }

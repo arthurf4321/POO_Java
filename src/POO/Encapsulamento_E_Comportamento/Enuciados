@@ -8,7 +8,7 @@
 24. Classe `LojaVirtual`: lista de clientes, registrar compras.    [X]
 25. Classe `Termometro`: temperatura atual, métodos aumentar/diminuir, converter Celsius ↔ Fahrenheit.    [X]
 26. Classe `ControleRemoto`: aumentar/diminuir volume, trocar canal.    [X]
-27. Classe `Semaforo`: estado (vermelho, amarelo, verde), método próximoEstado().    []
+27. Classe `Semaforo`: estado (vermelho, amarelo, verde), método próximoEstado().    [X]
 28. Classe `Lampada`: estado (acesa/apagada), método alternarEstado().    []
 29. Classe `Estoque`: produtos, adicionar/remover itens, verificar quantidade.    []
 30. Classe `Corrida`: participantes, registrar tempo, verificar vencedor.    []
