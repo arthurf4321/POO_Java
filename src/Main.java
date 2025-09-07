@@ -3,6 +3,10 @@ import POO.Encapsulamento_inicialização.*;
 import POO.Heranca_Polimorfismo.Exercicio_1.*;
 import POO.Heranca_Polimorfismo.Exercicio_2.*;
 import POO.Heranca_Polimorfismo.Exercicio_3.*;
+import POO.Heranca_Polimorfismo.Exercicio_4.Animal;
+import POO.Heranca_Polimorfismo.Exercicio_4.Cachorro;
+import POO.Heranca_Polimorfismo.Exercicio_4.Gato;
+import POO.Heranca_Polimorfismo.Exercicio_4.Pássaro;
 import POO.POO_Basic.*;
 
 public class Main {
@@ -152,7 +156,7 @@ public class Main {
         */
 
         // =====================================================
-        // Encapsulamento e Comportamento (comentado parcialmente)
+        // Encapsulamento e Comportamento
         /*
         // ----------- Elevador -----------
         Elevador usuario1 = new Elevador(20, 6);
@@ -197,7 +201,6 @@ public class Main {
         marcos.converterParaFahrenheit();
         marcos.converterParaCelsius(95);
 
-
         // ----------- ControleRemoto -----------
         ControleRemoto controle1 = new ControleRemoto(2, 4);
         ControleRemoto controle2 = new ControleRemoto(1, 10);
@@ -231,6 +234,21 @@ public class Main {
         // ----------- Corrida -----------
         Corrida corrida1 = new Corrida("Arthur", "Bia", 10, 9);
         corrida1.playerWin();
+
+
+
+        // =====================================================
+        // Herança
+
+        // ----------- Animal -----------
+        Cachorro cachorro = new Cachorro("Duck", "AUau", 12);
+        Gato gato = new Gato("Dante", "Miau", 10);
+        Pássaro passaro = new Pássaro("Geu", "PIU", 9);
+        cachorro.emitirSom();
+        gato.emitirSom();
+        passaro.emitirSom();
         */
+
+
     }
 }
