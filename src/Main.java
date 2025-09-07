@@ -227,6 +227,10 @@ public class Main {
         estoque.adicionarProduto();
         estoque.retirarProduto();
         estoque.verificarQuanridade();
+
+        // ----------- Corrida -----------
+        Corrida corrida1 = new Corrida("Arthur", "Bia", 10, 9);
+        corrida1.playerWin();
         */
     }
 }

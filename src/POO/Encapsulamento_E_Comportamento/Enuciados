@@ -11,4 +11,4 @@
 27. Classe `Semaforo`: estado (vermelho, amarelo, verde), método próximoEstado().    [X]
 28. Classe `Lampada`: estado (acesa/apagada), método alternarEstado().    [X]
 29. Classe `Estoque`: produtos, adicionar/remover itens, verificar quantidade.    [X]
-30. Classe `Corrida`: participantes, registrar tempo, verificar vencedor.    []
+30. Classe `Corrida`: participantes, registrar tempo, verificar vencedor.    [X]
