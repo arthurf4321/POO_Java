@@ -2,7 +2,7 @@
 
 👉 Foco: **especialização de classes, sobrescrita de métodos**.
 
-31. Classe `Animal` (nome, idade, som). Subclasses: `Cachorro`, `Gato`, `Pássaro`.    []
+31. Classe `Animal` (nome, idade, som). Subclasses: `Cachorro`, `Gato`, `Pássaro`.    [X]
 32. Classe `Veiculo` (placa, ano). Subclasses: `Carro`, `Moto`, `Caminhao`.    []
 33. Classe `Funcionario` (nome, salário). Subclasses: `Gerente`, `Vendedor`, `Estagiario`.   []
 34. Classe `Pessoa` (nome, cpf). Subclasses: `Aluno`, `Professor`.    []

@@ -7,6 +7,7 @@ import POO.Heranca_Polimorfismo.Exercicio_4.Animal;
 import POO.Heranca_Polimorfismo.Exercicio_4.Cachorro;
 import POO.Heranca_Polimorfismo.Exercicio_4.Gato;
 import POO.Heranca_Polimorfismo.Exercicio_4.Pássaro;
+import POO.Heranca_Polimorfismo.Exercicio_5.Veiculo;
 import POO.POO_Basic.*;
 
 public class Main {
@@ -239,7 +240,6 @@ public class Main {
 
         // =====================================================
         // Herança
-
         // ----------- Animal -----------
         Cachorro cachorro = new Cachorro("Duck", "AUau", 12);
         Gato gato = new Gato("Dante", "Miau", 10);
@@ -247,8 +247,15 @@ public class Main {
         cachorro.emitirSom();
         gato.emitirSom();
         passaro.emitirSom();
+
+
+        // ----------- Veiculo -----------
+        Veiculo veiculo1 = new Veiculo("3334-2211", 2012);
+        Veiculo veiculo2= new Veiculo("3334-2211", 2012);
+        Veiculo veiculo3 = new Veiculo("3334-2211", 2012);
+        veiculo1.Infos();
+        veiculo2.Infos();
+        veiculo3.Infos();
         */
-
-
     }
 }
