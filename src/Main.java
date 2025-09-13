@@ -8,6 +8,10 @@ import POO.Heranca_Polimorfismo.Exercicio_4.Cachorro;
 import POO.Heranca_Polimorfismo.Exercicio_4.Gato;
 import POO.Heranca_Polimorfismo.Exercicio_4.Pássaro;
 import POO.Heranca_Polimorfismo.Exercicio_5.Veiculo;
+import POO.Heranca_Polimorfismo.Exercicio_6.Estagiario;
+import POO.Heranca_Polimorfismo.Exercicio_6.Funcionario;
+import POO.Heranca_Polimorfismo.Exercicio_6.Gerente;
+import POO.Heranca_Polimorfismo.Exercicio_6.Vendedor;
 import POO.POO_Basic.*;
 
 public class Main {
@@ -248,7 +252,6 @@ public class Main {
         gato.emitirSom();
         passaro.emitirSom();
 
-
         // ----------- Veiculo -----------
         Veiculo veiculo1 = new Veiculo("3334-2211", 2012);
         Veiculo veiculo2= new Veiculo("3334-2211", 2012);
@@ -256,6 +259,14 @@ public class Main {
         veiculo1.Infos();
         veiculo2.Infos();
         veiculo3.Infos();
+
+        // ----------- Funcionario -----------
+        Gerente funcionario1 = new Gerente("arthur",  12200);
+        Vendedor funcionario2 = new Vendedor("Igor", 2200);
+        Estagiario funcionario3 = new Estagiario("Bruno", 750);
+            funcionario1.Apresentar();
+            funcionario2.Apresentar();
+            funcionario3.Apresentar();
         */
     }
 }
