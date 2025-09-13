@@ -264,9 +264,10 @@ public class Main {
         Gerente funcionario1 = new Gerente("arthur",  12200);
         Vendedor funcionario2 = new Vendedor("Igor", 2200);
         Estagiario funcionario3 = new Estagiario("Bruno", 750);
-            funcionario1.Apresentar();
-            funcionario2.Apresentar();
-            funcionario3.Apresentar();
+
+        funcionario1.Apresentar();
+        funcionario2.Apresentar();
+        funcionario3.Apresentar();
         */
     }
 }
