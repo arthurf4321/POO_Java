@@ -12,6 +12,9 @@ import POO.Heranca_Polimorfismo.Exercicio_6.Estagiario;
 import POO.Heranca_Polimorfismo.Exercicio_6.Funcionario;
 import POO.Heranca_Polimorfismo.Exercicio_6.Gerente;
 import POO.Heranca_Polimorfismo.Exercicio_6.Vendedor;
+import POO.Heranca_Polimorfismo.Exercicio_7.Pessoa;
+import POO.Heranca_Polimorfismo.Exercicio_7.Aluno;
+import POO.Heranca_Polimorfismo.Exercicio_7.Professor;
 import POO.POO_Basic.*;
 
 public class Main {
@@ -269,5 +272,12 @@ public class Main {
         funcionario2.Apresentar();
         funcionario3.Apresentar();
         */
+
+
+        Aluno pessoa1 = new Aluno("Arthur", "12220200222");
+        Professor pessoa2 = new Professor("Lucas", "4444445255");
+
+        pessoa1.infos();
+        pessoa2.infos();
     }
 }
