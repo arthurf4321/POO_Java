@@ -15,6 +15,9 @@ import POO.Heranca_Polimorfismo.Exercicio_6.Vendedor;
 import POO.Heranca_Polimorfismo.Exercicio_7.Pessoa;
 import POO.Heranca_Polimorfismo.Exercicio_7.Aluno;
 import POO.Heranca_Polimorfismo.Exercicio_7.Professor;
+import POO.Heranca_Polimorfismo.Exercicio_8.Ingresso;
+import POO.Heranca_Polimorfismo.Exercicio_8.IngressoNormal;
+import POO.Heranca_Polimorfismo.Exercicio_8.IngressoVIP;
 import POO.POO_Basic.*;
 
 public class Main {
@@ -278,8 +281,13 @@ public class Main {
 
         pessoa1.infos();
         pessoa2.infos();
+
+        // ----------- Ingresso -----------
+        IngressoNormal pessoa1 = new IngressoNormal(90);
+        IngressoVIP pessoa2 = new IngressoVIP(350);
+
+        pessoa1.Infos();
+        pessoa2.Infos();
         */
-
-
     }
 }
