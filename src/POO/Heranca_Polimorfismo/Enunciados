@@ -5,7 +5,7 @@
 31. Classe `Animal` (nome, idade, som). Subclasses: `Cachorro`, `Gato`, `Pássaro`.    [X]
 32. Classe `Veiculo` (placa, ano). Subclasses: `Carro`, `Moto`, `Caminhao`.    [X]
 33. Classe `Funcionario` (nome, salário). Subclasses: `Gerente`, `Vendedor`, `Estagiario`.   [X]
-34. Classe `Pessoa` (nome, cpf). Subclasses: `Aluno`, `Professor`.    []
+34. Classe `Pessoa` (nome, cpf). Subclasses: `Aluno`, `Professor`.    [X]
 35. Classe `Ingresso` (valor). Subclasses: `IngressoNormal`, `IngressoVIP`.   []
 36. Classe `FormaGeometrica`. Subclasses: `Quadrado`, `Triangulo`, `Circulo`.    []
 37. Classe `ContaBancaria`. Subclasses: `ContaCorrente`, `ContaPoupanca`.    []

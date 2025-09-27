@@ -271,13 +271,15 @@ public class Main {
         funcionario1.Apresentar();
         funcionario2.Apresentar();
         funcionario3.Apresentar();
-        */
 
-
+        // ----------- Funcionario -----------
         Aluno pessoa1 = new Aluno("Arthur", "12220200222");
         Professor pessoa2 = new Professor("Lucas", "4444445255");
 
         pessoa1.infos();
         pessoa2.infos();
+        */
+
+
     }
 }
