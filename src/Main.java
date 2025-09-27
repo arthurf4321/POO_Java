@@ -18,6 +18,9 @@ import POO.Heranca_Polimorfismo.Exercicio_7.Professor;
 import POO.Heranca_Polimorfismo.Exercicio_8.Ingresso;
 import POO.Heranca_Polimorfismo.Exercicio_8.IngressoNormal;
 import POO.Heranca_Polimorfismo.Exercicio_8.IngressoVIP;
+import POO.Heranca_Polimorfismo.Exercicio_9.Circulo;
+import POO.Heranca_Polimorfismo.Exercicio_9.Quadrado;
+import POO.Heranca_Polimorfismo.Exercicio_9.Triangulo;
 import POO.POO_Basic.*;
 
 public class Main {
@@ -288,6 +291,19 @@ public class Main {
 
         pessoa1.Infos();
         pessoa2.Infos();
+
+        // ----------- FormasGeometricas -----------
+        Quadrado forma1 = new Quadrado(10.0);
+        forma1.Infos();
+        forma1.Area();
+
+        Triangulo forma2 = new Triangulo(5.0, 3.0);
+        forma2.Infos();
+        forma2.Area();
+
+        Circulo forma3 = new Circulo(10.0);
+        forma3.Infos();
+        forma3.area();
         */
     }
 }

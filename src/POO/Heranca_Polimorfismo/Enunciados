@@ -6,7 +6,7 @@
 32. Classe `Veiculo` (placa, ano). Subclasses: `Carro`, `Moto`, `Caminhao`.    [X]
 33. Classe `Funcionario` (nome, salário). Subclasses: `Gerente`, `Vendedor`, `Estagiario`.   [X]
 34. Classe `Pessoa` (nome, cpf). Subclasses: `Aluno`, `Professor`.    [X]
-35. Classe `Ingresso` (valor). Subclasses: `IngressoNormal`, `IngressoVIP`.   []
+35. Classe `Ingresso` (valor). Subclasses: `IngressoNormal`, `IngressoVIP`.   [X]
 36. Classe `FormaGeometrica`. Subclasses: `Quadrado`, `Triangulo`, `Circulo`.    []
 37. Classe `ContaBancaria`. Subclasses: `ContaCorrente`, `ContaPoupanca`.    []
 38. Classe `Jogo` (nome). Subclasses: `JogoDigital`, `JogoTabuleiro`.    []
