@@ -1,0 +1,14 @@
+## 🔹 Nível 5 – Polimorfismo e Abstração
+
+👉 Foco: **interfaces, classes abstratas, polimorfismo**.
+
+41. Classe abstrata `Forma`: calcularArea. Subclasses: `Retangulo`, `Circulo`, `Triangulo`.    []
+42. Interface `Autenticavel`: login(usuario, senha). Classes: `Cliente`, `Administrador`.    []
+43. Interface `Pagamento`: pagar(valor). Classes: `CartaoCredito`, `Boleto`, `Pix`.    []
+44. Interface `Animal`: emitirSom(). Classes: `Gato`, `Cachorro`, `Passaro`.   []
+45. Classe abstrata `Funcionario`: calcularBonus(). Subclasses: `Gerente`, `Programador`, `Estagiario`.    []
+46. Classe abstrata `Conta`: sacar/depositar. Subclasses: `Corrente`, `Poupanca`.    []
+47. Interface `MeioDeTransporte`: acelerar/frear. Classes: `Carro`, `Bicicleta`, `Onibus`.    []
+48. Interface `Imprimivel`: imprimirDados(). Classes: `Aluno`, `Professor`, `Funcionario`.  []
+49. Classe abstrata `Documento`: validar(). Subclasses: `CPF`, `CNPJ`.    []
+50. Interface `Notificacao`: enviarMensagem(). Classes: `Email`, `SMS`, `WhatsApp`.   []

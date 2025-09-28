@@ -9,6 +9,3 @@
 35. Classe `Ingresso` (valor). Subclasses: `IngressoNormal`, `IngressoVIP`.   [X]
 36. Classe `FormaGeometrica`. Subclasses: `Quadrado`, `Triangulo`, `Circulo`.    [X]
 37. Classe `ContaBancaria`. Subclasses: `ContaCorrente`, `ContaPoupanca`.    [X]
-38. Classe `Jogo` (nome). Subclasses: `JogoDigital`, `JogoTabuleiro`.    []
-39. Classe `FuncionarioPublico`. Subclasses: `Policial`, `Professor`, `Médico`.    []
-40. Classe `Dispositivo`. Subclasses: `Computador`, `Smartphone`, `Tablet`.    []

@@ -24,6 +24,8 @@ import POO.Heranca_Polimorfismo.Exercicio_9.Circulo;
 import POO.Heranca_Polimorfismo.Exercicio_9.Quadrado;
 import POO.Heranca_Polimorfismo.Exercicio_9.Triangulo;
 import POO.POO_Basic.*;
+import POO.Polimorfismo_e_Abstração.Exercicio_1.Circulo2;
+import POO.Polimorfismo_e_Abstração.Exercicio_1.Triangulo2;
 
 public class Main {
     public static void main(String[] args) {
@@ -313,6 +315,17 @@ public class Main {
         conta1.Infos();
         conta2.Infos();
         conta2.rendimento();
+
+
+        // =====================================================
+        // Polimorfismo e Abstracao
+        // ----------- Formas -----------
+        Circulo2 forma1 = new Circulo2(10);
+        Retangulo forma2 = new Retangulo(10, 5);
+        Triangulo2 forma3 = new Triangulo2(10,7);
+        forma1.calcularArea();
+        forma2.calcularArea();
+        forma3.calcularArea();
         */
     }
 }
