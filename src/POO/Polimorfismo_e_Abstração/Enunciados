@@ -2,7 +2,7 @@
 
 👉 Foco: **interfaces, classes abstratas, polimorfismo**.
 
-41. Classe abstrata `Forma`: calcularArea. Subclasses: `Retangulo`, `Circulo`, `Triangulo`.    []
+41. Classe abstrata `Forma`: calcularArea. Subclasses: `Retangulo`, `Circulo`, `Triangulo`.    [X]
 42. Interface `Autenticavel`: login(usuario, senha). Classes: `Cliente`, `Administrador`.    []
 43. Interface `Pagamento`: pagar(valor). Classes: `CartaoCredito`, `Boleto`, `Pix`.    []
 44. Interface `Animal`: emitirSom(). Classes: `Gato`, `Cachorro`, `Passaro`.   []

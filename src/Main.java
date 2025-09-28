@@ -26,6 +26,8 @@ import POO.Heranca_Polimorfismo.Exercicio_9.Triangulo;
 import POO.POO_Basic.*;
 import POO.Polimorfismo_e_Abstração.Exercicio_1.Circulo2;
 import POO.Polimorfismo_e_Abstração.Exercicio_1.Triangulo2;
+import POO.Polimorfismo_e_Abstração.Exercicio_2.Autenticavel;
+import POO.Polimorfismo_e_Abstração.Exercicio_2.Cliente;
 
 public class Main {
     public static void main(String[] args) {
@@ -326,6 +328,13 @@ public class Main {
         forma1.calcularArea();
         forma2.calcularArea();
         forma3.calcularArea();
+
+        // ----------- Autenticavel -----------
+        Autenticavel a = new Cliente("Arthur", "123");
+        Autenticavel b = new Cliente("Lucas", "boot");
+        System.out.println("Login Cliente: " + a.autenticar("Arthur", "123"));
+        System.out.println("Login Admin: " + b.autenticar("Lucas", "boot"));
+        System.out.println("Login Admin (errado): " + a.autenticar("admin", "123"));
         */
     }
 }
