@@ -1,6 +1,8 @@
 import POO.Encapsulamento_E_Comportamento.*;
 import POO.Encapsulamento_inicialização.*;
 import POO.Heranca_Polimorfismo.Exercicio_1.*;
+import POO.Heranca_Polimorfismo.Exercicio_10.ContaCorrente;
+import POO.Heranca_Polimorfismo.Exercicio_10.ContaPoupanca;
 import POO.Heranca_Polimorfismo.Exercicio_2.*;
 import POO.Heranca_Polimorfismo.Exercicio_3.*;
 import POO.Heranca_Polimorfismo.Exercicio_4.Animal;
@@ -304,6 +306,13 @@ public class Main {
         Circulo forma3 = new Circulo(10.0);
         forma3.Infos();
         forma3.area();
+
+        // ----------- ContaBancaria -----------
+        ContaCorrente conta1 = new ContaCorrente(10000);
+        ContaPoupanca conta2 = new ContaPoupanca(20000);
+        conta1.Infos();
+        conta2.Infos();
+        conta2.rendimento();
         */
     }
 }
