@@ -3,8 +3,8 @@
 👉 Foco: **interfaces, classes abstratas, polimorfismo**.
 
 41. Classe abstrata `Forma`: calcularArea. Subclasses: `Retangulo`, `Circulo`, `Triangulo`.    [X]
-42. Interface `Autenticavel`: login(usuario, senha). Classes: `Cliente`, `Administrador`.    []
-43. Interface `Pagamento`: pagar(valor). Classes: `CartaoCredito`, `Boleto`, `Pix`.    []
+42. Interface `Autenticavel`: login(usuario, senha). Classes: `Cliente`, `Administrador`.    [X]
+43. Interface `Pagamento`: pagar(valor). Classes: `CartaoCredito`, `Boleto`, `Pix`.    [X]
 44. Interface `Animal`: emitirSom(). Classes: `Gato`, `Cachorro`, `Passaro`.   []
 45. Classe abstrata `Funcionario`: calcularBonus(). Subclasses: `Gerente`, `Programador`, `Estagiario`.    []
 46. Classe abstrata `Conta`: sacar/depositar. Subclasses: `Corrente`, `Poupanca`.    []
