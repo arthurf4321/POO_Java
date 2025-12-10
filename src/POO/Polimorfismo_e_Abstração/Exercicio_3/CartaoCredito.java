@@ -9,7 +9,6 @@ public class CartaoCredito implements Pagamento{
     }
 
     // Method
-
     @Override
     public boolean pagar(String valor) {
         return this.valor.equals(valor);

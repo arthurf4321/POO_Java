@@ -10,9 +10,7 @@ import POO.Heranca_Polimorfismo.Exercicio_4.Cachorro;
 import POO.Heranca_Polimorfismo.Exercicio_4.Gato;
 import POO.Heranca_Polimorfismo.Exercicio_4.Pássaro;
 import POO.Heranca_Polimorfismo.Exercicio_5.Veiculo;
-import POO.Heranca_Polimorfismo.Exercicio_6.Estagiario;
 import POO.Heranca_Polimorfismo.Exercicio_6.Funcionario;
-import POO.Heranca_Polimorfismo.Exercicio_6.Gerente;
 import POO.Heranca_Polimorfismo.Exercicio_6.Vendedor;
 import POO.Heranca_Polimorfismo.Exercicio_7.Pessoa;
 import POO.Heranca_Polimorfismo.Exercicio_7.Aluno;
@@ -32,6 +30,10 @@ import POO.Polimorfismo_e_Abstração.Exercicio_3.Boleto;
 import POO.Polimorfismo_e_Abstração.Exercicio_3.CartaoCredito;
 import POO.Polimorfismo_e_Abstração.Exercicio_3.Pagamento;
 import POO.Polimorfismo_e_Abstração.Exercicio_3.Pix;
+import POO.Polimorfismo_e_Abstração.Exercicio_4.Estagiario;
+import POO.Polimorfismo_e_Abstração.Exercicio_4.Funcionario10;
+import POO.Polimorfismo_e_Abstração.Exercicio_4.Gerente;
+import POO.Polimorfismo_e_Abstração.Exercicio_4.Programador;
 
 public class Main {
     public static void main(String[] args) {
@@ -347,6 +349,7 @@ public class Main {
         System.out.println("a " + a.pagar("10000"));
         System.out.println("b " + b.pagar("100"));
         System.out.println("c " + c.pagar("10"));
+
         */
     }
 }
