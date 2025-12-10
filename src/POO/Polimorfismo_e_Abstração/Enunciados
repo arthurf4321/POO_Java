@@ -6,7 +6,7 @@
 42. Interface `Autenticavel`: login(usuario, senha). Classes: `Cliente`, `Administrador`.    [X]
 43. Interface `Pagamento`: pagar(valor). Classes: `CartaoCredito`, `Boleto`, `Pix`.    [X]
 45. Classe abstrata `Funcionario`: calcularBonus(). Subclasses: `Gerente`, `Programador`, `Estagiario`.    [X]
-46. Classe abstrata `Conta`: sacar/depositar. Subclasses: `Corrente`, `Poupanca`.    []
+46. Classe abstrata `Conta`: sacar/depositar. Subclasses: `Corrente`, `Poupanca`.    [X]
 47. Interface `MeioDeTransporte`: acelerar/frear. Classes: `Carro`, `Bicicleta`, `Onibus`.    []
 48. Interface `Imprimivel`: imprimirDados(). Classes: `Aluno`, `Professor`, `Funcionario`.  []
 49. Classe abstrata `Documento`: validar(). Subclasses: `CPF`, `CNPJ`.    []

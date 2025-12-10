@@ -34,6 +34,8 @@ import POO.Polimorfismo_e_Abstração.Exercicio_4.Estagiario;
 import POO.Polimorfismo_e_Abstração.Exercicio_4.Funcionario10;
 import POO.Polimorfismo_e_Abstração.Exercicio_4.Gerente;
 import POO.Polimorfismo_e_Abstração.Exercicio_4.Programador;
+import POO.Polimorfismo_e_Abstração.Exercicio_5.Corrente;
+import POO.Polimorfismo_e_Abstração.Exercicio_5.Conta;
 
 public class Main {
     public static void main(String[] args) {
@@ -350,6 +352,10 @@ public class Main {
         System.out.println("b " + b.pagar("100"));
         System.out.println("c " + c.pagar("10"));
 
+        // ----------- Pagamento -----------
+        Conta a = new Corrente(200);
+        System.out.println(a.sacar(150));
+        System.out.println(a.depositar(50));
         */
     }
 }
