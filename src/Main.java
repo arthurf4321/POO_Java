@@ -36,6 +36,10 @@ import POO.Polimorfismo_e_Abstração.Exercicio_4.Gerente;
 import POO.Polimorfismo_e_Abstração.Exercicio_4.Programador;
 import POO.Polimorfismo_e_Abstração.Exercicio_5.Corrente;
 import POO.Polimorfismo_e_Abstração.Exercicio_5.Conta;
+import POO.Polimorfismo_e_Abstração.Exercicio_6.Bicicleta;
+import POO.Polimorfismo_e_Abstração.Exercicio_6.Carro;
+import POO.Polimorfismo_e_Abstração.Exercicio_6.MeioDeTransporte;
+import POO.Polimorfismo_e_Abstração.Exercicio_6.Onibus;
 
 public class Main {
     public static void main(String[] args) {
@@ -356,6 +360,23 @@ public class Main {
         Conta a = new Corrente(200);
         System.out.println(a.sacar(150));
         System.out.println(a.depositar(50));
+
+        // ---------- Meio de transporte ----------
+        MeioDeTransporte a = new Carro(200, 180, 320);
+        MeioDeTransporte b = new Bicicleta(200, 250, 400);
+        MeioDeTransporte c = new Onibus(220, 300, 350);
+
+        System.out.println("=== TESTE CARRO ===");
+        a.acelerar(50);
+        a.freiar(30);
+
+        System.out.println("\n=== TESTE BICICLETA ===");
+        b.acelerar(20);
+        b.freiar(10);
+
+        System.out.println("\n=== TESTE ÔNIBUS ===");
+        c.acelerar(40);
+        c.freiar(25);
         */
     }
 }
