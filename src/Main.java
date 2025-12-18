@@ -10,11 +10,8 @@ import POO.Heranca_Polimorfismo.Exercicio_4.Cachorro;
 import POO.Heranca_Polimorfismo.Exercicio_4.Gato;
 import POO.Heranca_Polimorfismo.Exercicio_4.Pássaro;
 import POO.Heranca_Polimorfismo.Exercicio_5.Veiculo;
-import POO.Heranca_Polimorfismo.Exercicio_6.Funcionario;
 import POO.Heranca_Polimorfismo.Exercicio_6.Vendedor;
 import POO.Heranca_Polimorfismo.Exercicio_7.Pessoa;
-import POO.Heranca_Polimorfismo.Exercicio_7.Aluno;
-import POO.Heranca_Polimorfismo.Exercicio_7.Professor;
 import POO.Heranca_Polimorfismo.Exercicio_8.Ingresso;
 import POO.Heranca_Polimorfismo.Exercicio_8.IngressoNormal;
 import POO.Heranca_Polimorfismo.Exercicio_8.IngressoVIP;
@@ -40,6 +37,10 @@ import POO.Polimorfismo_e_Abstração.Exercicio_6.Bicicleta;
 import POO.Polimorfismo_e_Abstração.Exercicio_6.Carro;
 import POO.Polimorfismo_e_Abstração.Exercicio_6.MeioDeTransporte;
 import POO.Polimorfismo_e_Abstração.Exercicio_6.Onibus;
+import POO.Polimorfismo_e_Abstração.Exercicio_7.Aluno;
+import POO.Polimorfismo_e_Abstração.Exercicio_7.Funcionario;
+import POO.Polimorfismo_e_Abstração.Exercicio_7.Imprimivel;
+import POO.Polimorfismo_e_Abstração.Exercicio_7.Professor;
 
 public class Main {
     public static void main(String[] args) {
@@ -377,6 +378,10 @@ public class Main {
         System.out.println("\n=== TESTE ÔNIBUS ===");
         c.acelerar(40);
         c.freiar(25);
+        
+         // ---------- Imprimivel ----------
+        Imprimivel a = new Funcionario("MARCOS", "Funcionario");
+        a.imprimirDados("MARCOS", "Funcionario");
         */
     }
 }

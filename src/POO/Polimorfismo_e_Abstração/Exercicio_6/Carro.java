@@ -6,7 +6,11 @@ public class Carro implements MeioDeTransporte{
     private double valorFreio;
 
     // construct
-    public Carro(double valorAcelerador, double valorFreio, double velocidade){ this.valorAcelerador = valorAcelerador; this.valorFreio = valorFreio; this.velocidade = velocidade; }
+    public Carro(double valorAcelerador, double valorFreio, double velocidade){
+        this.valorAcelerador = valorAcelerador;
+        this.valorFreio = valorFreio;
+        this.velocidade = velocidade;
+    }
 
     // Methods
     public double acelerar(double valorAcelerador) {
