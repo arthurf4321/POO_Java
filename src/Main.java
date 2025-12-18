@@ -41,6 +41,7 @@ import POO.Polimorfismo_e_Abstração.Exercicio_7.Aluno;
 import POO.Polimorfismo_e_Abstração.Exercicio_7.Funcionario;
 import POO.Polimorfismo_e_Abstração.Exercicio_7.Imprimivel;
 import POO.Polimorfismo_e_Abstração.Exercicio_7.Professor;
+import POO.Polimorfismo_e_Abstração.Exercicio_8.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -378,10 +379,20 @@ public class Main {
         System.out.println("\n=== TESTE ÔNIBUS ===");
         c.acelerar(40);
         c.freiar(25);
-        
-         // ---------- Imprimivel ----------
+
+        // ---------- Imprimivel ----------
         Imprimivel a = new Funcionario("MARCOS", "Funcionario");
         a.imprimirDados("MARCOS", "Funcionario");
+
+        // ---------- Documento ----------
+        Documento cpf = new CPF("123.456.789-09");
+        Documento cnpj = new CNPJ("12.345.678/0001-95");
+
+        System.out.println("Validando CPF:");
+        cpf.validar();
+
+        System.out.println("\nValidando CNPJ:");
+        cnpj.validar();
         */
     }
 }
